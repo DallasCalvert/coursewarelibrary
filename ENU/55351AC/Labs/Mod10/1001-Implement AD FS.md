@@ -6,7 +6,7 @@ Contoso Corporation has set up a variety of business relationships with other co
 
 To meet these business requirements, you plan to implement Active Directory Federation Services (AD FS). In the initial deployment, you plan to use AD FS to implement single sign-on (SSO) for internal users accessing an application on a web server. Contoso Corporation is partnering with another company, Trey Research. Trey Research users should be able to access the same application.
 
-As a proof of concept, you will deploy a sample claims-aware application and configuring AD FS to allow both internal users and Trey Research users to access the same application.
+As a proof of concept, you'll deploy a sample claims-aware application and configuring AD FS to allow both internal users and Trey Research users to access the same application.
 
 ## Exercise 1: Configuring the AD FS prerequisites
 
@@ -36,7 +36,7 @@ The main tasks for this exercise are as follows:
 
 5. In the **New Conditional Forwarder** window, in the **DNS Domain** box, enter **TreyResearch.net**.
 
-6. In the **IP addresses of the master servers** box, enter **172.16.10.10**, and then press Enter.
+6. In the **IP addresses of the master servers** box, enter **172.16.10.10**, and then select Enter.
 
    > **Note:** If you receive a notification that the IP address is not authoritative for the required zone, you can safely ignore and proceed.
 
